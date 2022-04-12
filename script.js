@@ -12,9 +12,9 @@ function drawGrid(gridDimension=16) {
     for (let i = 1; i <= area; i++) {
         const box = document.createElement('div');
         box.classList.add("cell");
-        box.style.width = `${cellDimension-1}px`; 
-        box.style.height = `${cellDimension-1}px`;
-        box.style.border = "solid grey 0.5px";
+        box.style.width = `${cellDimension-2}px`; 
+        box.style.height = `${cellDimension-2}px`;
+        box.style.border = "solid grey 1px";
         box.style.margin = "0px";
         box.style.padding = "0px";
         sketchContainer.appendChild(box);
